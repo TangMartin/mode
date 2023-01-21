@@ -1,0 +1,10 @@
+.profilePage {
+    height: 100vh;
+    display: flex;
+  }
+  .profileContent{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    overflow-y: auto;
+  }
