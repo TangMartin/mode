@@ -1,10 +1,20 @@
 .uploadPage {
     height: 100vh;
     display: flex;
-  }
+}
+
 .uploadContent{
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
     width: 100%;
     overflow-y: auto;
-  }
+    background-color: lightblue;
+}
+
+.uploadTitle {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5px;
+}
