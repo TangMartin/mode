@@ -37,46 +37,50 @@
 }
 
 .item-showcase-info-upper {
-  height: 50%;
+  height: 35%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .item-showcase-info-brand {
-  flex: 1;
   display: flex;
   width: 100%;
   align-content: center;
 }
 
 .brand {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight: 100;
   white-space: nowrap;
 }
 
 .item-showcase-info-name {
-  flex: 1;
   display: flex;
   align-content: center;
 }
 
 .name {
-  font-size: 3.75vw;
-  font-weight: 500;
+  margin: 10px 0px 0px 0px;
+  font-size: 3vw;
+  font-weight: 600;
   white-space: nowrap;
 }
 
-.item-showcase-seller-size {
-  flex: 1;
+.item-showcase-seller {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  column-gap: 10px;
+}
+
+.sold-by {
+  font-size: 1.5vw;
+  font-weight: 200;
 }
 
 .size {
-  font-size: 14pt;
-  font-weight: 250;
+  font-size: 1vw;
+  font-weight: 200;
 }
 
 .item-showcase-info-colour {
@@ -85,9 +89,17 @@
   align-items: center;
 }
 
+.item-showcase-colour-size {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+  margin: 25px 0px 0px 0px;
+  width: 85%;
+}
+
 .colour {
-  font-size: 1.5vw;
-  font-weight: 250;
+  font-size: 1vw;
+  font-weight: 200;
   margin-right: 10px;
 }
 
@@ -99,12 +111,13 @@
 }
 
 .item-showcase-info-lower {
+  margin: 35px 0px 0px 0px;
   height: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
-  row-gap: 8vh;
+  row-gap: 5vh;
 }
 
 .item-showcase-info-description {
@@ -113,29 +126,26 @@
   align-items: flex-start;
   height: 40%;
   justify-content: space-evenly;
-}
-
-.description-title {
-  font-size: 1.5vw;
-  font-weight: 300;
+  text-align: left;
 }
 
 .description {
   font-size: 1vw;
   font-weight: 200;
-  margin: 0px 10px 0px 10px;
+  width: 70%;
+  font-style: italic;
 }
 
 .order-button {
-  height: 30%;
-  width: 60%;
+  height: 10vh;
+  width: 50%;
   border-radius: 20px;
   border: solid grey;
   font-weight: 100;
   font-size: 1.5vw;
-  background-color: white;
+  background-color: rgb(228, 229, 253);
 }
 
 .order-button:hover {
-  background-color: rgb(228, 229, 253);
+  background-color: rgb(191, 193, 255);
 }
