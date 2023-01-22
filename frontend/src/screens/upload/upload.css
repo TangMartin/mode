@@ -1,5 +1,5 @@
 .uploadPage {
-    height: 100vh;
+    height: 100%;
     display: flex;
 }
 .upload-form {
@@ -162,4 +162,10 @@
 .footer {
     color: white; 
     height: 40px;
+}
+
+.uploadHeader {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }

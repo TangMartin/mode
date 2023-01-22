@@ -75,7 +75,7 @@ const SideNav = () => {
               }
             </NavLink>
             <NavLink
-              to="/test"
+              to="/wallet"
               className={({ isActive }) =>
               isActive ? "header-navbar--navlink--active" : "header-navbar--navlink"
             }
@@ -86,12 +86,33 @@ const SideNav = () => {
                     color: appColor.primaryDark,
                     fontWeight: 700,
                     paddingLeft: 80,
-                  }}> Test </div>
+                  }}> Wallet </div>
                 ) : (
                     <div style={{
                         color: appColor.primaryLight,
                         paddingLeft: 80,
-                    }}> Test </div>
+                    }}> Wallet </div>
+                )
+              }
+            </NavLink>
+            <NavLink
+              to="/yourImpact"
+              className={({ isActive }) =>
+              isActive ? "header-navbar--navlink--active" : "header-navbar--navlink"
+            }
+            >
+              {({ isActive }) =>
+                isActive ? (
+                  <div style={{
+                    color: appColor.primaryDark,
+                    fontWeight: 700,
+                    paddingLeft: 80,
+                  }}> Your Impact </div>
+                ) : (
+                    <div style={{
+                        color: appColor.primaryLight,
+                        paddingLeft: 80,
+                    }}> Your Impact </div>
                 )
               }
             </NavLink>

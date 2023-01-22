@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import ProfileCard from "../../components/ProfileCard";
 
 import { doc, setDoc, collection, getDocs, addDoc} from "firebase/firestore"; 
 import { getStorage, ref, uploadBytes, uploadBytesResumable, getDownloadURL } from "firebase/storage";
@@ -91,6 +92,7 @@ const Upload = () => {
     <div className="uploadPage">
       <div className="uploadHeader">
         <SideNav />
+        <ProfileCard username="Mode Demo" name="Jane"/>
       </div>
       <div className="uploadContent">
         <div className="uploadTitle">Upload Your Item</div>
