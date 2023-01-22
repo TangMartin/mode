@@ -9,14 +9,14 @@ import {
 import "./Chart.css";
 
 const data = [
-  { name: "January", Total: 10 },
-  { name: "February", Total: 21 },
-  { name: "March", Total: 7 },
-  { name: "April", Total: 14 },
-  { name: "May", Total: 9 },
-  { name: "June", Total: 19 },
-  { name: "July", Total: 9 },
-  { name: "August", Total: 26 },
+  { name: "June", Total: 10 },
+  { name: "July", Total: 21 },
+  { name: "August", Total: 7 },
+  { name: "Spetember", Total: 14 },
+  { name: "October", Total: 9 },
+  { name: "November", Total: 19 },
+  { name: "December", Total: 9 },
+  { name: "January", Total: 1 },
 ];
 
 export const Chart = () => {
