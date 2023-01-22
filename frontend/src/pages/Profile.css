@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 .profile__menubar{
     width: 250px; 
     background-color: red ;
@@ -11,19 +11,17 @@
     
 
     display: grid;
-    grid-gap: 2%;
+    grid-gap: 4%;
     grid-template-columns: 
     [first-col-start] 1fr 
     [first-col-end second-col-start] 1fr
-    /* [second-col-end third-col-start] 1fr 
-    [third-col-end fourth-col-start] 1fr */
     [second-col-end third-col-start] 1fr
     [third-col-end] ;
 
   grid-template-rows: 
     [first-row-start] 1fr 
     [first-row-end second-row-start] 1fr 
-    [second-row-end third-row-start] 0.25fr
+    [second-row-end third-row-start] 0.5fr
     [third-row-end];
    
   }
@@ -33,21 +31,22 @@
     /* margin-left: 0.5%; 
     margin-right: 0.5%; */
     /* width: 400px;  */
-    height: 400px;
+    height: 380px;
     /* outline: 2px solid #191919;  */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
-    border-radius: 40px;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
     /* background: #0A0E14;   */
     background: #FFFFFF;  
-    
-   
-
 
   }
 
+  .profile__header{
+    height: 80px;
+  }
   .profile-transactions{
     grid-row: first-row ; 
-    grid-column: first-col ;
+    grid-column: first-col;
+    display: flex;
   }
 
   .profile-impact{
@@ -61,26 +60,18 @@
     grid-column: first-col /third-col; 
   }
   .col-long {
-
-    /* margin-top:9%; */
-    /* margin-left: 0.5%; 
-    margin-right: 0.5%; */
-    /* width: 800px;  */
-    /* height: 330px; */
-    /* outline: 2px solid #191919;   */
-    border-radius: 40px;
-    /* background: #0A0E14;   */
-    /* background: #0D1117;   */ 
+    height: 380px;
+    border-radius: 20px;
     background: #FFFFFF;  
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,0.2);
 
   }
 
 
   .col-tall {
    /* width: 800px; */
-    border-radius: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 20px;
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,0.2);
     background: #FFFFFF;  
   }
 
@@ -93,3 +84,178 @@
 
 
 
+
+/* CSS for transactions component */
+
+.transactions-container{
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 80%; 
+    font-family: 'Open Sans', sans-serif; 
+
+}
+
+.mode-header{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;    
+    color: #808199; 
+    font-weight: 600;
+}
+
+.welcome-title {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;    
+    color: #000000;
+    margin-top: 10%;
+    font-size: 24px; 
+    /* text-align: left; */
+    font-weight: 500 ;
+    margin-bottom: 10%;
+}
+
+.subtitle-text{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;    color: #808199; 
+    font-weight: 600;
+}
+
+.transactions-container {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.transaction{
+    display: flex; 
+    flex-direction: row;
+    width: 100%; 
+   /* justify-content : space-between;  */
+
+}
+
+.transaction-status {
+    font-weight: 500;
+    font-style: italic; 
+    font-size : 12px;
+    color : #666666;
+    width: 20%;
+    text-align: left;
+    margin-right: 10%;
+}
+
+.transaction-item-name{    
+    font-weight: 600;
+    text-align: left;
+    font-size : 12px;
+    color : #000000;
+    width: 50%;
+    
+}
+
+.transaction-link{
+    font-weight: 600;
+    font-size: 12px; 
+    color: #526AE3;
+}
+
+.rule-line {
+    margin-top: 5px 
+}
+
+.transaction-view-all{
+    display: flex; 
+    flex-direction: row;
+    width: 100%; 
+   justify-content: flex-end;
+   margin-top: 15px;
+}
+.transaction-link-view-all{
+    font-weight: 600;
+    font-size: 12px; 
+    color: #526AE3;
+    text-align: right;
+}
+
+/* CSS for Wardrobe component */
+
+.footer{
+    color: white; 
+    height: 1000px;
+}
+
+.slideC {
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    width: 362px;
+    height: 272px;
+    margin: 10px auto;
+    padding-left: 105px;
+    margin-bottom: 7%;
+  }
+  
+  .slide {
+    width: 250px;
+    height: 270px;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s,
+    visibility 500ms ease 0s;
+    position: absolute;
+    top: 0;
+    border-radius: 25px;
+  }
+
+  .wardrobe-title{
+    margin-left: 5%;
+    margin-top: 4%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;    
+    color: #808199; 
+    font-weight: 600;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sliderContent {
+    border-radius:25px;
+    padding-top:100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px 30px 0px 30px ; */
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;    
+    width: 100%;
+
+  }
+
+  .slider-container{
+    margin-top: 2%;
+  }
+  
+  .btns {
+    /* padding-top: 70px; */
+    margin-top: 30px;
+  }
+  
+  .btns .btn {
+    cursor: pointer;
+  }
+  
+  .btns .btn:last-child {
+    margin-left: 40px;
+  }
+  
+  /* normal css  */
+  

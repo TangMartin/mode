@@ -1,0 +1,55 @@
+.wardrobe-item-container{
+    font-family: 'Open Sans', sans-serif;   
+    display: flex; 
+    flex-direction: column; 
+    justify-content: left;
+    
+    
+}
+
+.wardrobe-item-picture{
+    margin-top: 50px;
+align-self: flex-start;
+}
+
+.item-image{
+    width: 250px; 
+    height: 300px;
+}
+
+.arrow-buttons {
+    font-size: 14px;
+    font-weight: bolder;
+    border: none; 
+    background-color: #6176dc;
+    color: white;
+    margin: 0 20px; 
+    width: 80px; 
+    height: 40px; 
+    border-radius: 10px;
+}
+
+
+.wardrobe-item-title{
+    margin-top: 0%;
+    display: flex; 
+    flex-direction: row;
+    font-weight: 500;
+    font-size : 16px;
+    color: #666666;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 15px; 
+}
+
+.wardrobe-item-desc{
+    /* align-self: flex-end; */
+    text-align: left;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000; 
+    font-weight: 300;
+    /* margin-bottom: 20%; */
+    margin-left: 15px; 
+
+}
