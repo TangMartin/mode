@@ -6,7 +6,7 @@ import test from "../../assets/beigeshirt.png";
 const MarketplaceCard = (props) => {
   const { brand, size, name, image } = props;
   return (
-    <Box className="marketplace-card">
+    <Box value="asdf " className="marketplace-card">
       <Box className="marketplace-card-image-container">
         <img className="marketplace-item-image" src={image} alt="FUK" />
       </Box>
