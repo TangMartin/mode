@@ -48,9 +48,21 @@
 
 .marketplace-upload {
   flex: 1;
-  width: 20%;
+  width: 100%;
   border-radius: 20px;
   background-color: rgb(198, 191, 255);
+  font-size: 125%;
+  border-style: none;
+  box-shadow: 3x 3px grey;
+  font-weight: 100;
+}
+
+.marketplace-button {
+  flex: 1;
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 20px;
+  background: transparent;
   font-size: 125%;
   border-style: none;
   box-shadow: 3x 3px grey;
