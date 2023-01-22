@@ -14,15 +14,17 @@
     grid-gap: 2%;
     grid-template-columns: 
     [first-col-start] 1fr 
-    [first-col-end second-col-start] 2fr
+    [first-col-end second-col-start] 1fr
     /* [second-col-end third-col-start] 1fr 
     [third-col-end fourth-col-start] 1fr */
-    [second-col-end] ;
+    [second-col-end third-col-start] 1fr
+    [third-col-end] ;
 
   grid-template-rows: 
     [first-row-start] 1fr 
     [first-row-end second-row-start] 1fr 
-    [second-row-end]
+    [second-row-end third-row-start] 0.25fr
+    [third-row-end];
    
   }
   .col {
@@ -44,18 +46,19 @@
   }
 
   .profile-transactions{
-    grid-row: first-row / first-row; 
-    grid-column: first-column / first-column;
+    grid-row: first-row ; 
+    grid-column: first-col ;
   }
 
   .profile-impact{
-    grid-row: second-row / third-row; 
-    grid-column: first-col /second-col
+     grid-row: first-row ; 
+    grid-column: second-col / third-col ; 
   }
+
 
   .profile-wardrobe{
     grid-row: second-row / third-row; 
-    grid-column: first-col /second-col
+    grid-column: first-col /third-col; 
   }
   .col-long {
 

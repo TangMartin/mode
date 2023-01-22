@@ -8,7 +8,7 @@ export const ProfilePage = () => {
         <div class="widgetlist ">
           <div class="col profile-transactions "></div>
           <div class="col-long profile-impact "></div>
-          <div class="col-tall "></div>
+          <div class="col-tall profile-wardrobe "></div>
         </div>
       </div>
     </div>
