@@ -7,20 +7,17 @@
 
 .item-showcase-top-bar {
   height: 10%;
-  /* margin: 0% 3% 0% 3%; */
   display: flex;
   align-content: center;
 }
 
 .item-showcase-content {
   height: 85%;
-  /* background-color: blue; */
   display: flex;
   justify-content: space-evenly;
 }
 
 .item-showcase-image-container {
-  /* flex: 1; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,11 +30,9 @@
 
 .item-showcase-image {
   display: inline-block;
-  /* box-shadow: 3px 3px red; */
 }
 
 .item-showcase-info {
-  /* flex: 1; */
   width: 45%;
 }
 
@@ -52,12 +47,9 @@
   display: flex;
   width: 100%;
   align-content: center;
-  /* justify-content: center; */
 }
 
 .brand {
-  /* font-size: 48pt; */
-  /* font-size: 2.5em; */
   font-size: 3vw;
   font-weight: 100;
   white-space: nowrap;
@@ -66,12 +58,10 @@
 .item-showcase-info-name {
   flex: 1;
   display: flex;
-  /* width: 100%; */
   align-content: center;
 }
 
 .name {
-  /* font-size: 64pt; */
   font-size: 3.75vw;
   font-weight: 500;
   white-space: nowrap;
@@ -96,7 +86,6 @@
 }
 
 .colour {
-  /* font-size: 14pt; */
   font-size: 1.5vw;
   font-weight: 250;
   margin-right: 10px;

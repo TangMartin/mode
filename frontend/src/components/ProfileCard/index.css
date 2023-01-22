@@ -1,0 +1,46 @@
+.profile-card-container {
+  background-color: rgb(247, 247, 250);
+  border: solid lightgrey;
+  border-style: solid none none none;
+}
+
+.profile-card-inner-container {
+  margin: 8% 22% 8% 22%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(247, 247, 250);
+}
+
+.profile-card-picture-container {
+  border: solid lavender;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px lavender;
+}
+
+.profile-card-picture {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.profile-card-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.username {
+  font-size: 1vw;
+  font-weight: 300;
+}
+
+.person-name {
+  font-size: 1vw;
+  font-weight: 100;
+}

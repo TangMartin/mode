@@ -8,3 +8,9 @@
     overflow-y: auto;
     display: flex;
   }
+
+.marketplaceHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
