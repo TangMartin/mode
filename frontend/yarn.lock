@@ -2116,6 +2116,13 @@
   resolved "https://registry.npmjs.org/@mui/core-downloads-tracker/-/core-downloads-tracker-5.11.5.tgz"
   integrity sha512-MIuWGjitOsugpRhp64CQY3ZEVMIu9M/L9ioql6QLSkz73+bGIlC9FEhfi670/GZ8pQIIGmtiGGwofYzlwEWjig==
 
+"@mui/icons-material@^5.11.0":
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.11.0.tgz#9ea6949278b2266d2683866069cd43009eaf6464"
+  integrity sha512-I2LaOKqO8a0xcLGtIozC9xoXjZAto5G5gh0FYUMAlbsIHNHIjn4Xrw9rvjY20vZonyiGrZNMAlAXYkY6JvhF6A==
+  dependencies:
+    "@babel/runtime" "^7.20.6"
+
 "@mui/material@^5.11.5":
   version "5.11.5"
   resolved "https://registry.npmjs.org/@mui/material/-/material-5.11.5.tgz"
@@ -7343,6 +7350,11 @@ npm-run-path@^4.0.1:
   integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
   dependencies:
     path-key "^3.0.0"
+
+ntcjs@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ntcjs/-/ntcjs-1.1.2.tgz#01d7e8aa90da4e519bef3cc64dcb414382e3b49d"
+  integrity sha512-duRzqrto0PHCzaMbSYcXcYkbaSsDWvf6ZwG9qSaNt9/vfzN9gCJDo2CGZmviI91LoGaYRWZqP8LwJpIUT4ZZxA==
 
 nth-check@^1.0.2:
   version "1.0.2"

@@ -1,4 +1,5 @@
 import React from 'react';
+import ItemShowcase from '../../components/ItemShowcase';
 import SideNav from '../../components/SideNav';
 import './marketplace.css';
 
@@ -9,9 +10,10 @@ const Marketplace = () => {
                 <SideNav />
             </div>
             <div className='marketplaceContent'> 
-                <div> Test </div>
+                {/* <div> Test </div> */}
+                <ItemShowcase/>
             </div>
-            <h1>Marketplace</h1>
+            {/* <h1>Marketplace</h1> */}
         </div>
     )
 }
