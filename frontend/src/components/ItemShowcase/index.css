@@ -135,3 +135,7 @@
   font-size: 1.5vw;
   background-color: white;
 }
+
+.order-button:hover {
+  background-color: rgb(228, 229, 253);
+}
