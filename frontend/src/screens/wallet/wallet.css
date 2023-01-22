@@ -1,16 +1,16 @@
-.profilePage {
+.walletPage {
   height: 100%;
   display: flex;
 }
 
-.profileContent{
+.walletContent{
   padding-left: 50px;
   padding-right: 50px;
   width: 100%;
   overflow-y: auto;
 }
 
-.profileHeader {
+.walletHeader {
   height: 100%;
   display: flex;
   flex-direction: column;

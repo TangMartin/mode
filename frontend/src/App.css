@@ -1,4 +1,5 @@
-.App {
+html, body, .App, #root {
+  height: 100%;
   text-align: center;
 }
 

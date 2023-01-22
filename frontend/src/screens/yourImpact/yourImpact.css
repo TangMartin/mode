@@ -1,16 +1,16 @@
-.profilePage {
+.yourImpactPage {
   height: 100%;
   display: flex;
 }
 
-.profileContent{
+.yourImpactContent{
   padding-left: 50px;
   padding-right: 50px;
   width: 100%;
   overflow-y: auto;
 }
 
-.profileHeader {
+.yourImpactHeader {
   height: 100%;
   display: flex;
   flex-direction: column;
