@@ -7,9 +7,12 @@ import { NavLink, Link } from "react-router-dom";
 const SideNav = () => {
     return (
         <div className="Header" style={{ backgroundColor: appColor.primary }}>
-          <NavLink to="/" className="header-navbar--title">
-            MODE
-          </NavLink>
+          <div className="header-navbar">
+            <img src={require("../../assets/icon.png")} alt="logo" className="header-navbar--logo" />
+            <NavLink to="/" className="header-navbar--title">
+              MODE
+            </NavLink>
+          </div>
           <div className="header-navbar-navigation--buttons">
             <NavLink
               to="/"
