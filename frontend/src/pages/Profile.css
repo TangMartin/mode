@@ -1,4 +1,92 @@
+
 .profile__menubar{
     width: 250px; 
     background-color: red ;
 }
+
+.widgetlist {
+    margin-left: auto; 
+    margin-right:auto;
+    width: 85%;
+    
+
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 
+    [first-col-start] 1fr 
+    [first-col-end second-col-start] 2fr
+    /* [second-col-end third-col-start] 1fr 
+    [third-col-end fourth-col-start] 1fr */
+    [second-col-end] ;
+
+  grid-template-rows: 
+    [first-row-start] 1fr 
+    [first-row-end second-row-start] 1fr 
+    [second-row-end]
+   
+  }
+  .col {
+
+    /* margin-top:9%; */
+    /* margin-left: 0.5%; 
+    margin-right: 0.5%; */
+    /* width: 400px;  */
+    height: 400px;
+    /* outline: 2px solid #191919;  */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    border-radius: 40px;
+    /* background: #0A0E14;   */
+    background: #FFFFFF;  
+    
+   
+
+
+  }
+
+  .profile-transactions{
+    grid-row: first-row / first-row; 
+    grid-column: first-column / first-column;
+  }
+
+  .profile-impact{
+    grid-row: second-row / third-row; 
+    grid-column: first-col /second-col
+  }
+
+  .profile-wardrobe{
+    grid-row: second-row / third-row; 
+    grid-column: first-col /second-col
+  }
+  .col-long {
+
+    /* margin-top:9%; */
+    /* margin-left: 0.5%; 
+    margin-right: 0.5%; */
+    /* width: 800px;  */
+    /* height: 330px; */
+    /* outline: 2px solid #191919;   */
+    border-radius: 40px;
+    /* background: #0A0E14;   */
+    /* background: #0D1117;   */ 
+    background: #FFFFFF;  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+
+  }
+
+
+  .col-tall {
+   /* width: 800px; */
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    background: #FFFFFF;  
+  }
+
+
+  .tall-item-1{
+    grid-row: first-row / second-row; 
+    grid-column: fourth-col; 
+
+}
+
+
+
