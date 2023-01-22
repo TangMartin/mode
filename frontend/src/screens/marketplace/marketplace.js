@@ -73,10 +73,9 @@ const Marketplace = () => {
     <div className="marketplacePage">
       <div className="marketplaceHeader">
         <SideNav />
-        {/* <ProfileCard username="Mode Demo" name="Jane" /> */}
+        <ProfileCard username="Mode Demo" name="Jane" />
       </div>
       <div className="marketplaceContent">
-        {/* <ItemShowcase/> */}
         <Box className="marketplace-upper-container">
           <Box className="marketplace-upper-tools">
             <Box className="marketplace-search">
