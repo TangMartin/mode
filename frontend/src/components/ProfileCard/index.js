@@ -9,11 +9,11 @@ const ProfileCard = (props) => {
     <Box className="profile-card-container">
       <Box className="profile-card-inner-container">
         <Box className="profile-card-picture-container">
-          <div className="profile-card-picture">{props.username[0]}</div>
+          <div className="profile-card-picture">{username[0]}</div>
         </Box>
         <Box className="profile-card-names">
-          <div className="username">Mode Demo</div>
-          <div className="person-name">Jane</div>
+          <div className="username">{username}</div>
+          <div className="person-name">{name}</div>
         </Box>
       </Box>
     </Box>
