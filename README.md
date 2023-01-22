@@ -5,7 +5,7 @@
 ## Devpost
 
 
-##Instructions
+## Instructions
 1. cd into mode/frontend
 2. yarn
 3. yarn start
