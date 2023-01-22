@@ -12,7 +12,7 @@ export const ProfilePage = () => {
           <div class="col profile-transactions ">
             <div className="transactions-container">
               <div className="mode-header"> Mode</div>
-              <div className="welcome-title">Welcome, Calypso</div>
+              <div className="welcome-title">Welcome, Jane</div>
               <div className="subtitle-text">
                 Here are some of your recent transactions you have completed :
               </div>
@@ -22,7 +22,7 @@ export const ProfilePage = () => {
                 </div>
                 <div className="transaction">
                   <div className="transaction-status">Requested</div>
-                  <div className="transaction-item-name">Red H&M Sweater</div>
+                  <div className="transaction-item-name">Beige Shirt</div>
                   <div className="transaction-link">View</div>
                 </div>
                 <div className="rule-line">
@@ -37,9 +37,9 @@ export const ProfilePage = () => {
                   <hr />
                 </div>
                 <div className="transaction">
-                  <div className="transaction-status">Jan 12</div>
-                  <div className="transaction-item-name">Yellow YSL pants</div>
-                  <div className="transaction-link">View</div>
+                  <div className="transaction-status">Jan 21</div>
+                  <div className="transaction-item-name">Red Shirt</div>
+                  <a href="https://testnets.opensea.io/assets/goerli/0xc338b5b660e8a656fa92e362acac49f785cf39f5/7426"><div className="transaction-link">View</div></a>
                 </div>
                 <div className="rule-line">
                   <hr />
