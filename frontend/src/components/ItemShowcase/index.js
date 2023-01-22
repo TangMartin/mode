@@ -1,8 +1,8 @@
 import React from 'react';
-import { Box, Button, CardMedia, IconButton } from "@mui/material";
+import { Box, CardMedia, IconButton } from "@mui/material";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import "./index.css";
-import test from "./sample_cardigan.jpg";
+import test from "../../assets/sample_cardigan.jpg";
 
 
 const ItemShowcase = () => {
