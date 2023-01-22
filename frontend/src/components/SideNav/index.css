@@ -1,68 +1,85 @@
 .Header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 100px;
-    position: -webkit-sticky; /*For safari*/
-    position: sticky;
-    height: 100%;
-    width: 300px;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgb(249, 249, 255) 100%);
-  }
-  
-  .header-navbar--title {
-    font-weight: 600;
-    font-size: 25px;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    color: #414158;
-    text-emphasis: none;
-    text-decoration: none;
-    letter-spacing: 3px;
-  }
-  
-  .header-navbar-navigation--buttons {
-    margin-top: 10%;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    align-items: left;
-  }
-  
-  .header-navbar--navlink {
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: left;
-    text-align: left;
-    text-decoration: none;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 1000px;
+  position: -webkit-sticky; /*For safari*/
+  position: sticky;
+  height: 150%;
+  flex-grow: inherit;
+  width: 300px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 35%,
+    rgb(249, 249, 255) 100%
+  );
+}
 
-  .header-navbar--navlink:hover {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgb(219, 222, 255) 100%);
-  }
-  
-  .header-navbar--navlink--active {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgb(223, 228, 255) 100%);
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: left;
-    text-align: left;
-    text-decoration: none;
-  }
+.header-navbar--title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  color: #414158;
+  text-emphasis: none;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
 
-  .header-navbar--navlink--active:hover {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(233, 235,255,1) 100%, rgb(233, 235, 255) 100%);
-  }
+.header-navbar-navigation--buttons {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  align-items: left;
+}
+
+.header-navbar--navlink {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: left;
+  text-align: left;
+  text-decoration: none;
+}
+
+.header-navbar--navlink:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 35%,
+    rgb(219, 222, 255) 100%
+  );
+}
+
+.header-navbar--navlink--active {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 35%,
+    rgb(223, 228, 255) 100%
+  );
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: left;
+  text-align: left;
+  text-decoration: none;
+}
+
+.header-navbar--navlink--active:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(233, 235, 255, 1) 100%,
+    rgb(233, 235, 255) 100%
+  );
+}
