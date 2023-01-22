@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import appColor from "../../constants.js";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 
 const SideNav = () => {
@@ -74,27 +74,19 @@ const SideNav = () => {
                 )
               }
             </NavLink>
-            <NavLink
-              to="/wallet"
-              className={({ isActive }) =>
-              isActive ? "header-navbar--navlink--active" : "header-navbar--navlink"
-            }
+            <div
+              className="header-navbar--navlink"
             >
-              {({ isActive }) =>
-                isActive ? (
+              <a href="https://testnets.opensea.io/TangMartin" style={{
+                textDecoration: "none",
+              }}>
                   <div style={{
-                    color: appColor.primaryDark,
-                    fontWeight: 700,
-                    paddingLeft: 80,
+                      color: appColor.primaryLight,
+                      paddingLeft: 80,
+                      textDecoration: "none",
                   }}> Wallet </div>
-                ) : (
-                    <div style={{
-                        color: appColor.primaryLight,
-                        paddingLeft: 80,
-                    }}> Wallet </div>
-                )
-              }
-            </NavLink>
+              </a>
+            </div>
             <NavLink
               to="/yourImpact"
               className={({ isActive }) =>

@@ -15,6 +15,7 @@ import db from "../../firebase";
 const Upload = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
+    alert("Item Loaded");
     console.log(data.file[0].name);
     let img = data.file[0].name;
 
