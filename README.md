@@ -5,8 +5,14 @@
 ## Devpost
 
 
+##Instructions
+1. cd into mode/frontend
+2. yarn
+3. yarn start
+4. You are good to go!
+
 ## Inspiration
-To build a economically, and environmentally competent solution to combat the growing industry of fast fashion.
+To build an economically, and environmentally competent solution to combat the growing industry of fast fashion.
 
 
 ## What it does
