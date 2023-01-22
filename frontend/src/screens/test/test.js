@@ -13,16 +13,15 @@ import db from "../../firebase";
 
 const Test = () => {
     const storage = getStorage();
-    const form = new FormData();
+
 
     const firebaseApp = getApp();
 
     function mint() {
+        const form = new FormData();
         form.append('allowPlatformToOperateToken', 'true');
         form.append('chain', 'goerli');
-        form.append('filePath', "../../assets/beigeshirt.png");
-        form.append('name', "Beige Shirt");
-        form.append('description', 'Test #2');
+        form.append('metadataUrl', 'https://images.mydrive.com/photos/1258/sample-photo-2105a3e.jpeg');
         form.append('recipientAddress', '0xA02286E881800c558b8b6Bd7699A068C0B9a1bbB');
 
         const options = {
@@ -35,7 +34,7 @@ const Test = () => {
 
         options.body = form;
 
-        fetch('https://api.verbwire.com/v1/nft/mint/quickMintFromFile', options)
+        fetch('https://api.verbwire.com/v1/nft/mint/quickMintFromMetadataUrl', options)
         .then(response => response.json())
         .then(response => console.log(response))
         .catch(err => console.error(err));
