@@ -1,32 +1,73 @@
 .marketplace-card {
   border-radius: 20px;
-  box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 5px rgb(202, 202, 202);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 95%;
 }
-
-.marketplace-card-image-container {
-
-}
-
 .marketplace-card-info-container {
-
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
 }
 
 .marketplace-card-brand-size {
-
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .marketplace-card-brand {
-
+  font-size: small;
+  font-weight: 200;
 }
 
 .marketplace-card-size {
-
+  font-size: small;
+  font-weight: 200;
 }
 
 .marketplace-card-name-container {
-
+  display: flex;
+  width: 80%;
 }
 
-.marektplace-card-name {
+.marketplace-card-name {
+  font-size: larger;
+  font-weight: 300;
+}
 
+/* .wardrobe-item-container {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.wardrobe-item-picture {
+  margin-top: 50px;
+  align-self: flex-start;
+} */
+
+/* .item-image {
+  width: 250px;
+  height: 300px;
+} */
+
+.marketplace-card-image-container {
+  flex: 4;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.marketplace-item-image {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
 }
