@@ -3,6 +3,8 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.11.5",
+    "node": "^19.4.0",
+    "nvm": "^0.0.4",
     "react-hook-form": "^7.42.1"
   }
 }
