@@ -12,6 +12,7 @@ const Profile = () => {
         <ProfileCard username="Mode Demo" name="Jane"/>
       </div>
       <div className="profileContent">
+        <div className="uploadTitleSub">Profile</div>
         <ProfilePage />
       </div>
     </div>

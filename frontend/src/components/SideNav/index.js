@@ -1,15 +1,19 @@
 import React from "react";
 import "./index.css";
 import appColor from "../../constants.js";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink} from "react-router-dom";
+import { GoogleAuthProvider } from "firebase/auth";
 
 
 const SideNav = () => {
     return (
         <div className="Header" style={{ backgroundColor: appColor.primary }}>
-          <NavLink to="/" className="header-navbar--title">
-            MODE
-          </NavLink>
+          <div className="header-navbar">
+            <img src={require("../../assets/icon.png")} alt="logo" className="header-navbar--logo" />
+            <NavLink to="/" className="header-navbar--title">
+              MODE
+            </NavLink>
+          </div>
           <div className="header-navbar-navigation--buttons">
             <NavLink
               to="/"
@@ -105,6 +109,27 @@ const SideNav = () => {
                         color: appColor.primaryLight,
                         paddingLeft: 80,
                     }}> Your Impact </div>
+                )
+              }
+            </NavLink>
+            <NavLink
+              to="/signIn"
+              className={({ isActive }) =>
+              isActive ? "header-navbar--navlink--active" : "header-navbar--navlink"
+            }
+            >
+              {({ isActive }) =>
+                isActive ? (
+                  <div style={{
+                    color: appColor.primaryDark,
+                    fontWeight: 700,
+                    paddingLeft: 80,
+                  }}> Sign In </div>
+                ) : (
+                    <div style={{
+                        color: appColor.primaryLight,
+                        paddingLeft: 80,
+                    }}> Sign In </div>
                 )
               }
             </NavLink>

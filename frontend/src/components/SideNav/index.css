@@ -83,3 +83,16 @@
     rgb(233, 235, 255) 100%
   );
 }
+
+.header-navbar--logo {
+  margin-top: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.header-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
