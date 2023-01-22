@@ -64,3 +64,16 @@
 .marketplace-card {
 
 }
+
+.marketplace-items-container{
+
+    display: grid;
+     
+    grid-template-columns: repeat(4, 1fr);
+     
+    grid-auto-rows: auto;
+     
+    grid-gap: 1rem;
+     
+    
+}
