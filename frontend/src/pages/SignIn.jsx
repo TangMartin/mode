@@ -24,9 +24,11 @@ const SignIn = () => {
   return (
     <div>
         <h1 className='text-center text-2xl font-bold pt-12'>Sign In</h1>
+      <center>
       <div className='max-w-[240px] m-auto py-4'>
         <GoogleButton onClick={handleGoogleSignIn} />
       </div>
+      </center>
     </div>
   );
 };

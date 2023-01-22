@@ -16,6 +16,7 @@ const Wallet = () => {
         <ProfilePage />
       </div>
     </div>
+    
   );
 };
 
