@@ -3,7 +3,7 @@
 ![Intro](./START.png)
 
 ## Devpost
-
+Our submission link is live on Devpost to view. Click [here](https://devpost.com/software/mode) to learn more!
 
 ## Instructions
 1. cd into mode/frontend
